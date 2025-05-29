@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Specific card colors */
+  .sedan {
+    background-color: #d48732;
+  }
+  
+  .suv {
+    background-color: #256d72;
+  }
+  
+  .luxury {
+    background-color: #154941;
+  }
